@@ -1,12 +1,13 @@
 package br.com.sicredi.sincronizacaoReceita;
 
-@SuppressWarnings("serial")
 public class BusinessException extends RuntimeException {
-    public BusinessException(String message) {
-        super(message);
-    }
+	public BusinessException(String message) {
+		super(message);
+	}
 
-    public BusinessException(String message, Throwable cause) {
-        super(message, cause);
-    }
+	private static final long serialVersionUID = 1L;
+
+	public BusinessException(String message, Throwable cause) {
+		super(message, cause);
+	}
 }

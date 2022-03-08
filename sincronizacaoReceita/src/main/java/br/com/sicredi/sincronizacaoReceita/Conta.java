@@ -5,11 +5,11 @@ import enums.StatusContaEnum;
 
 public class Conta {
 	private String agencia;
-    private String conta;
-    private Double saldo;
-    private StatusContaEnum status;
-    private ResultEnum processada;
-    
+	private String conta;
+	private Double saldo;
+	private StatusContaEnum status;
+	private ResultEnum processada;
+
 	public Conta(String agencia, String conta, Double saldo, StatusContaEnum status) {
 		this.agencia = agencia;
 		this.conta = conta;
@@ -56,8 +56,5 @@ public class Conta {
 	public void setprocessada(ResultEnum processada) {
 		this.processada = processada;
 	}
-	
-	
-    
 
 }
